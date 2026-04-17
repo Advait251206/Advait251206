@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/Advait251206">
-    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=900&size=42&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Future+Ethical+Hacker;CS+Student;Systems+Enthusiast;Aspiring+Developer;Tech+Explorer;Linux+Enthusiast;Problem+Solver;Continuous+Learner;Builder+and+Breaker" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=900&size=42&duration=2000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Future+Ethical+Hacker;CS+Student;Systems+Enthusiast;Aspiring+Developer;Tech+Explorer;Linux+Enthusiast;Problem+Solver;Continuous+Learner;Builder+and+Breaker;IoT+Tinkerer" alt="Typing SVG" />
   </a>
 </div>
 
