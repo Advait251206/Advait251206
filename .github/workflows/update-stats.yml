@@ -1,0 +1,39 @@
+name: Auto-Update Profile Stats
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create Assets Directory
+        run: mkdir -p assets
+
+      - name: Fetch General Stats (with count_private)
+        run: curl -s "https://github-readme-stats.vercel.app/api?username=Advait251206&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6&count_private=true" -o assets/github-stats.svg
+
+      - name: Fetch Streak Stats
+        run: curl -s "https://github-readme-streak-stats.herokuapp.com/?user=Advait251206&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=ffffff&currStreakLabel=00FF00&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=6" -o assets/github-streak.svg
+
+      - name: Fetch Activity Graph
+        run: curl -s "https://github-readme-activity-graph.vercel.app/graph?username=Advait251206&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6" -o assets/activity-graph.svg
+
+      - name: Fetch Top Languages
+        run: curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6" -o assets/top-langs.svg
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update local stats SVGs [skip ci]"
+          git push

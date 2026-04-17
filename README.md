@@ -79,16 +79,16 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 ## 📈 GitHub Stats & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Advait251206&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6" alt="Advait's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Advait251206&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=ffffff&currStreakLabel=00FF00&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=6" alt="Advait's GitHub Streak" width="48%" />
+  <img src="./assets/github-stats.svg" alt="Advait's GitHub Stats" width="48%" />
+  <img src="./assets/github-streak.svg" alt="Advait's GitHub Streak" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Advait251206&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6" alt="Advait's Activity Graph" width="98%" />
+  <img src="./assets/activity-graph.svg" alt="Advait's Activity Graph" width="98%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6" alt="Top Languages" width="48%" />
+  <img src="./assets/top-langs.svg" alt="Top Languages" width="48%" />
 </div>
 
 ## 📫 Let's Connect
