@@ -30,6 +30,11 @@ jobs:
       - name: Fetch Top Languages
         run: curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6" -o assets/top-langs.svg
 
+      - name: Sanitize SVGs (Remove leading whitespace)
+        run: |
+          perl -0777 -pi -e 's/^\s+//' assets/github-stats.svg
+          perl -0777 -pi -e 's/^\s+//' assets/top-langs.svg
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
