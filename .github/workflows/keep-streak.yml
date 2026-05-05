@@ -1,0 +1,26 @@
+name: Keep Streak Alive
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # Runs every day at 12:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Make Empty Commit
+        run: |
+          # Make sure this matches your GitHub account email exactly!
+          # Otherwise, the commit won't link to your profile and won't increase the streak.
+          git config --local user.email "Advait251206@users.noreply.github.com"
+          git config --local user.name "Advait251206"
+          
+          git commit --allow-empty -m "🔥 Keep streak alive"
+          git push
