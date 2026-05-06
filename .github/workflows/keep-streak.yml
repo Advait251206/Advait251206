@@ -2,7 +2,7 @@ name: Keep Streak Alive
 
 on:
   schedule:
-    - cron: "33 3 * * *" # Runs every day at 03:33 UTC (approx 09:03 AM IST) to bypass traffic jams
+    - cron: "33 3 * * *"
   workflow_dispatch:
 
 permissions:
