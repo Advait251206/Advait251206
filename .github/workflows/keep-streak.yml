@@ -2,7 +2,7 @@ name: Keep Streak Alive
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "33 3 * * *" # Runs every day at 03:33 UTC (approx 09:03 AM IST) to bypass traffic jams
   workflow_dispatch:
 
 permissions:
@@ -17,8 +17,6 @@ jobs:
 
       - name: Make Empty Commit
         run: |
-          # Make sure this matches your GitHub account email exactly!
-          # Otherwise, the commit won't link to your profile and won't increase the streak.
           git config --local user.email "advaitkawale@gmail.com"
           git config --local user.name "Advait251206"
           
