@@ -1,6 +1,6 @@
 # 🛡️ Support My Work! 
 
-Hi! I'm **Advait Kawale**, a second-year Computer Science student, systems engineer, and future ethical hacker. 
+Hi! I'm **Advait Kawale**, a third-year Computer Science student, systems engineer, and future ethical hacker. 
 
 My journey is driven by a deep curiosity for how systems behave, scale, and eventually break. I spend my time exploring the intersections of **cybersecurity, low-level OS internals, and full-stack software architecture.** 
 
