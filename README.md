@@ -80,6 +80,17 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 ## 📈 GitHub Stats & Activity
 
 <div align="center">
+  <h3>👾 Pac-Man eating my contribution graph</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Advait251206/Advait251206/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Advait251206/Advait251206/output/pacman-contribution-graph.svg">
+    <img src="https://raw.githubusercontent.com/Advait251206/Advait251206/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" width="100%" />
+  </picture>
+  <br/>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Motion divider" width="86%" />
+</div>
+
+<div align="center">
   <img src="./assets/github-stats.svg" alt="Advait's GitHub Stats" width="48%" />
   <img src="./assets/github-streak.svg" alt="Advait's GitHub Streak" width="48%" />
 </div>
