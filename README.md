@@ -47,7 +47,7 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 
 <div align="center">
 
-<table border="1">
+<table border="1" width="100%">
 
   <tr>
     <td colspan="60" align="center"><h3>🛡️ Security & Exploitation</h3></td>
