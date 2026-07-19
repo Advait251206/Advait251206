@@ -53,19 +53,19 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="60" align="center"><h3>🛡️ Security & Exploitation</h3></td>
   </tr>
   <tr>
-    <td colspan="15" align="center">
+    <td colspan="15" width="25%" align="center">
       <img src="https://cdn.simpleicons.org/burpsuite/FF6633" width="50"/><br>
       <sub>Burp Suite</sub>
     </td>
-    <td colspan="15" align="center">
+    <td colspan="15" width="25%" align="center">
       <img src="https://cdn.simpleicons.org/metasploit/0453A2" width="50"/><br>
       <sub>Metasploit</sub>
     </td>
-    <td colspan="15" align="center">
+    <td colspan="15" width="25%" align="center">
       <img src="https://raw.githubusercontent.com/hsluoyz/npcap-icons/master/nmap-logo.png" width="75"/><br>
       <sub>Nmap</sub>
     </td>
-    <td colspan="15" align="center">
+    <td colspan="15" width="25%" align="center">
       <img src="https://cdn.simpleicons.org/owasp/000000" width="50"/><br>
       <sub>OWASP</sub>
     </td>
@@ -75,23 +75,23 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="60" align="center"><h3>💻 Programming Languages</h3></td>
   </tr>
   <tr>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=python" width="50"/><br>
       <sub>Python</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=java" width="50"/><br>
       <sub>Java</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=c" width="50"/><br>
       <sub>C</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=js" width="50"/><br>
       <sub>JavaScript</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=bash" width="50"/><br>
       <sub>Bash</sub>
     </td>
@@ -101,27 +101,27 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="60" align="center"><h3>🌐 Web & Full-Stack</h3></td>
   </tr>
   <tr>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=ts" width="50"/><br>
       <sub>TypeScript</sub>
     </td>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=react" width="50"/><br>
       <sub>React</sub>
     </td>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=tailwind" width="50"/><br>
       <sub>Tailwind CSS</sub>
     </td>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br>
       <sub>Node.js</sub>
     </td>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=express" width="50"/><br>
       <sub>Express.js</sub>
     </td>
-    <td colspan="10" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br>
       <sub>MongoDB</sub>
     </td>
@@ -131,23 +131,23 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="60" align="center"><h3>🖥️ OS, Systems & Networks</h3></td>
   </tr>
   <tr>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=kali" width="50"/><br>
       <sub>Kali Linux</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=ubuntu" width="50"/><br>
       <sub>Ubuntu</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://skillicons.dev/icons?i=windows" width="50"/><br>
       <sub>Windows</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://cdn.simpleicons.org/wireshark/1660EA" width="50"/><br>
       <sub>Wireshark</sub>
     </td>
-    <td colspan="12" align="center">
+    <td colspan="12" width="20%" align="center">
       <img src="https://cdn.simpleicons.org/cisco/1BA0D7" width="50"/><br>
       <sub>Cisco</sub>
     </td>
