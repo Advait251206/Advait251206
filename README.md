@@ -62,7 +62,7 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
       <sub>Metasploit</sub>
     </td>
     <td colspan="15" align="center">
-      <img src="https://raw.githubusercontent.com/nmap/nmap/master/docs/nmap-logo-256x256.png" width="50"/><br>
+      <img src="https://raw.githubusercontent.com/hsluoyz/npcap-icons/master/nmap-logo.png" width="75"/><br>
       <sub>Nmap</sub>
     </td>
     <td colspan="15" align="center">
