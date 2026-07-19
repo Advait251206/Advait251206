@@ -47,33 +47,113 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 
 <div align="center">
 
-### 🛡️ Security & Exploitation
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Metasploit-0453A2?style=for-the-badge&logo=metasploit&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white" /> 
-<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
+<table border="1">
 
-### 💻 Programming Languages
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <tr>
+    <td colspan="60" align="center"><h3>🛡️ Security & Exploitation</h3></td>
+  </tr>
+  <tr>
+    <td colspan="15" align="center">
+      <img src="https://cdn.simpleicons.org/burpsuite/FF6633" width="50"/><br>
+      <sub>Burp Suite</sub>
+    </td>
+    <td colspan="15" align="center">
+      <img src="https://cdn.simpleicons.org/metasploit/0453A2" width="50"/><br>
+      <sub>Metasploit</sub>
+    </td>
+    <td colspan="15" align="center">
+      <img src="https://raw.githubusercontent.com/nmap/nmap/master/docs/nmap-logo-256x256.png" width="50"/><br>
+      <sub>Nmap</sub>
+    </td>
+    <td colspan="15" align="center">
+      <img src="https://cdn.simpleicons.org/owasp/000000" width="50"/><br>
+      <sub>OWASP</sub>
+    </td>
+  </tr>
 
-### 🌐 Web & Full-Stack
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <tr>
+    <td colspan="60" align="center"><h3>💻 Programming Languages</h3></td>
+  </tr>
+  <tr>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=python" width="50"/><br>
+      <sub>Python</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=java" width="50"/><br>
+      <sub>Java</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=c" width="50"/><br>
+      <sub>C</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=js" width="50"/><br>
+      <sub>JavaScript</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=bash" width="50"/><br>
+      <sub>Bash</sub>
+    </td>
+  </tr>
 
-### 🖥️ OS, Systems & Networks
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Windows-0078D8?style=for-the-badge&logo=windows11&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Wireshark-1660EA?style=for-the-badge&logo=wireshark&logoColor=white" /> 
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <tr>
+    <td colspan="60" align="center"><h3>🌐 Web & Full-Stack</h3></td>
+  </tr>
+  <tr>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=ts" width="50"/><br>
+      <sub>TypeScript</sub>
+    </td>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=react" width="50"/><br>
+      <sub>React</sub>
+    </td>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="50"/><br>
+      <sub>Tailwind CSS</sub>
+    </td>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="50"/><br>
+      <sub>Node.js</sub>
+    </td>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=express" width="50"/><br>
+      <sub>Express.js</sub>
+    </td>
+    <td colspan="10" align="center">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="50"/><br>
+      <sub>MongoDB</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="60" align="center"><h3>🖥️ OS, Systems & Networks</h3></td>
+  </tr>
+  <tr>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=kali" width="50"/><br>
+      <sub>Kali Linux</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=ubuntu" width="50"/><br>
+      <sub>Ubuntu</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://skillicons.dev/icons?i=windows" width="50"/><br>
+      <sub>Windows</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://cdn.simpleicons.org/wireshark/1660EA" width="50"/><br>
+      <sub>Wireshark</sub>
+    </td>
+    <td colspan="12" align="center">
+      <img src="https://cdn.simpleicons.org/cisco/1BA0D7" width="50"/><br>
+      <sub>Cisco</sub>
+    </td>
+  </tr>
+
+</table>
 
 </div>
 
