@@ -50,7 +50,10 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 <table border="1" width="100%">
 
   <tr>
-    <td colspan="60" align="center"><h3>🛡️ Security & Exploitation</h3></td>
+    <td colspan="60" align="center">
+      <h3>🛡️ Security & Exploitation</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="800" height="1" />
+    </td>
   </tr>
   <tr>
     <td colspan="15" width="25%" align="center">
