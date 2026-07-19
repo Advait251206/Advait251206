@@ -78,23 +78,27 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="60" align="center"><h3>💻 Programming Languages</h3></td>
   </tr>
   <tr>
-    <td colspan="12" width="20%" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=python" width="50"/><br>
       <sub>Python</sub>
     </td>
-    <td colspan="12" width="20%" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=java" width="50"/><br>
       <sub>Java</sub>
     </td>
-    <td colspan="12" width="20%" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=c" width="50"/><br>
       <sub>C</sub>
     </td>
-    <td colspan="12" width="20%" align="center">
+    <td colspan="10" width="16%" align="center">
+      <img src="https://skillicons.dev/icons?i=cpp" width="50"/><br>
+      <sub>C++</sub>
+    </td>
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=js" width="50"/><br>
       <sub>JavaScript</sub>
     </td>
-    <td colspan="12" width="20%" align="center">
+    <td colspan="10" width="16%" align="center">
       <img src="https://skillicons.dev/icons?i=bash" width="50"/><br>
       <sub>Bash</sub>
     </td>
@@ -153,6 +157,24 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
     <td colspan="12" width="20%" align="center">
       <img src="https://cdn.simpleicons.org/cisco/1BA0D7" width="50"/><br>
       <sub>Cisco</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="60" align="center"><h3>🔌 IoT & Embedded</h3></td>
+  </tr>
+  <tr>
+    <td colspan="20" width="33%" align="center">
+      <img src="https://skillicons.dev/icons?i=arduino" width="50"/><br>
+      <sub>Arduino</sub>
+    </td>
+    <td colspan="20" width="33%" align="center">
+      <img src="https://skillicons.dev/icons?i=raspberrypi" width="50"/><br>
+      <sub>Raspberry Pi</sub>
+    </td>
+    <td colspan="20" width="33%" align="center">
+      <img src="https://cdn.simpleicons.org/espressif/E7352C" width="50"/><br>
+      <sub>Espressif (ESP)</sub>
     </td>
   </tr>
 
