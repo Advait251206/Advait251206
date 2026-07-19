@@ -185,10 +185,6 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 ## 📈 GitHub Stats & Activity
 
 <div align="center">
-  <img src="./assets/top-langs.svg" alt="Top Languages" width="48%" />
-</div>
-
-<div align="center">
   <h3>👾 Pac-Man eating my contribution graph</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Advait251206/Advait251206/output/pacman-contribution-graph-dark.svg">
@@ -202,6 +198,10 @@ Right now, I’m focused on strengthening my core computer science knowledge to 
 <div align="center">
   <img src="./assets/github-stats.svg" alt="Advait's GitHub Stats" width="48%" />
   <img src="./assets/github-streak.svg" alt="Advait's GitHub Streak" width="48%" />
+</div>
+
+<div align="center">
+  <img src="./assets/top-langs.svg" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center">
