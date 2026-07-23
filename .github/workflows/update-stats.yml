@@ -18,25 +18,29 @@ jobs:
       - name: Create Assets Directory
         run: mkdir -p assets
 
-      - name: Fetch General Stats (with count_private)
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=Advait251206&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6&count_private=true" -o temp_stats.svg
-          if grep -q "<svg" temp_stats.svg; then mv temp_stats.svg assets/github-stats.svg; fi
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: "username=Advait251206&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6&count_private=true"
+          path: assets/github-stats.svg
 
       - name: Fetch Streak Stats
         run: |
-          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=Advait251206&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=ffffff&currStreakLabel=00FF00&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=6" -o temp_streak.svg
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=Advait251206&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=ffffff&currStreakLabel=00FF00&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=6&v=${{ github.run_id }}" -o temp_streak.svg
           if grep -q "<svg" temp_streak.svg; then mv temp_streak.svg assets/github-streak.svg; fi
 
       - name: Fetch Activity Graph
         run: |
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=Advait251206&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6" -o temp_graph.svg
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=Advait251206&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6&v=${{ github.run_id }}" -o temp_graph.svg
           if grep -q "<svg" temp_graph.svg; then mv temp_graph.svg assets/activity-graph.svg; fi
 
-      - name: Fetch Top Languages
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6" -o temp_langs.svg
-          if grep -q "<svg" temp_langs.svg; then mv temp_langs.svg assets/top-langs.svg; fi
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: "username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6"
+          path: assets/top-langs.svg
 
       - name: Sanitize SVGs (Remove leading whitespace)
         run: |
