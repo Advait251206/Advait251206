@@ -21,6 +21,7 @@ jobs:
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v1
         with:
+          token: ${{ secrets.GH_PAT }}
           card: stats
           options: "username=Advait251206&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6&count_private=true"
           path: assets/github-stats.svg
@@ -38,6 +39,7 @@ jobs:
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v1
         with:
+          token: ${{ secrets.GH_PAT }}
           card: top-langs
           options: "username=Advait251206&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=ffffff&icon_color=00FF00&border_radius=6"
           path: assets/top-langs.svg
