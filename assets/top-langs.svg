@@ -129,7 +129,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="176.73"
+          width="176.77"
           height="8"
           fill="#3178c6"
         />
@@ -137,9 +137,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="176.73"
+          x="176.77"
           y="0"
-          width="27.73"
+          width="27.72"
           height="8"
           fill="#3572A5"
         />
@@ -147,9 +147,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="204.45999999999998"
+          x="204.49"
           y="0"
-          width="14.15"
+          width="14.14"
           height="8"
           fill="#f1e05a"
         />
@@ -157,9 +157,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="218.60999999999999"
+          x="218.63"
           y="0"
-          width="13.6"
+          width="13.59"
           height="8"
           fill="#663399"
         />
@@ -167,7 +167,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="232.20999999999998"
+          x="232.22"
           y="0"
           width="11.16"
           height="8"
@@ -177,9 +177,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="243.36999999999998"
+          x="243.38"
           y="0"
-          width="16.63"
+          width="16.62"
           height="8"
           fill="#4F5D95"
         />
@@ -190,7 +190,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 70.69%
+        TypeScript 70.71%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -218,7 +218,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f7523f" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Blade 4.47%
+        Blade 4.46%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
