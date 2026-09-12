@@ -31,10 +31,13 @@ jobs:
           curl -s "https://github-readme-streak-stats.herokuapp.com/?user=Advait251206&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakNum=ffffff&currStreakLabel=00FF00&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=6&v=${{ github.run_id }}" -o temp_streak.svg
           if grep -q "<svg" temp_streak.svg; then mv temp_streak.svg assets/github-streak.svg; fi
 
-      - name: Fetch Activity Graph
-        run: |
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=Advait251206&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6&v=${{ github.run_id }}" -o temp_graph.svg
-          if grep -q "<svg" temp_graph.svg; then mv temp_graph.svg assets/activity-graph.svg; fi
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: Advait251206
+          options: bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true&border_radius=6
+          output_path: assets/activity-graph.svg
+          token: ${{ secrets.GH_PAT }}
 
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v1
@@ -56,3 +59,4 @@ jobs:
           git add assets/
           git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update local stats SVGs [skip ci]"
           git push
+
