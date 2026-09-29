@@ -8,7 +8,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Advait Kawale's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 357, Total Commits  (last year) : 609, Total PRs: 550, Total Issues: 1, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 357, Total Commits  (last year) : 609, Total PRs: 552, Total Issues: 1, Contributed to (last year): 5</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -72,7 +72,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 60.71243325491952;
+        stroke-dashoffset: 60.71159431921323;
       }
     }
   
@@ -191,7 +191,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >550</text>
+      >552</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
